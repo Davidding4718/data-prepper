@@ -24,6 +24,7 @@ import org.opensearch.dataprepper.model.record.Record;
 import org.opensearch.dataprepper.model.source.Source;
 import org.opensearch.dataprepper.plugins.certificate.CertificateProvider;
 import org.opensearch.dataprepper.plugins.otel.codec.OTelOutputFormat;
+import org.opensearch.dataprepper.plugins.otel.codec.OTelProtoCodec;
 import org.opensearch.dataprepper.plugins.otel.codec.OTelProtoOpensearchCodec;
 import org.opensearch.dataprepper.plugins.otel.codec.OTelProtoStandardCodec;
 import org.opensearch.dataprepper.plugins.otel.codec.OTelLogsDecoder;
